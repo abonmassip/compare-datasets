@@ -1,0 +1,22 @@
+.datasets_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  fill: #f0f0f0;
+
+  &:hover {
+    cursor: pointer;
+    fill: #bbbbbb;
+  }
+}
+
+.test {
+  font-size: 10px;
+}
